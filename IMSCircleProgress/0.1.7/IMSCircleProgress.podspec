@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "IMSCircleProgress"
-  s.version      = "0.1.6"
+  s.version      = "0.1.7"
   s.platform     = :ios, "8" 
   s.summary      = "A short description of IMSCircleProgress."
 
   s.homepage     = "https://github.com/InMotionSoft/IMSCircleProgresss"
   s.license      = "MIT"
 
-  s.author       = { "InMotion Soft" => "hello@inmotionsoft.com" }
+  s.author       = { "Max Kuznetsov" => "mx.kuznetsov.dev@gmail.com" }
   s.source       = { :git => "https://github.com/InMotionSoft/IMSCircleProgress.git", :tag => s.version.to_s }
 
   s.source_files  = 'CircleProgress/Code/**/*.{swift}'
